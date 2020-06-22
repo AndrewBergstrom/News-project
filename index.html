@@ -17,81 +17,89 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col">
-            <div class="jumbotron jumbotron-fluid text-center">
-                <div class="container-fluid">
-                    <h1 class="display-4">New York Times Search</h1>
-                    <p class="lead"></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title p-3 mb-2 bg-dark text-white">Search Parameters</h5>
-                    <br>
-                    <form>
-                        <div class="form-group">
-                            <label class="font-weight-bold">Search Term:</label>
-                            <input type="text" class="form-control" id="searchTerm">
-                        </div>
-                        <div class="form-group">
-                            <label class="font-weight-bold">Number of Records to
-                                Retrieve:</label>
-                            <input type="text" class="form-control" id="noRecords">
-                        </div>
-                        <div class="form-group">
-                            <label class="font-weight-bold">Start Year (Optional):</label>
-                            <input type="text" class="form-control" id="startYear">
-                        </div>
-                        <div class="form-group">
-                            <label class="font-weight-bold">End Year (Optional):</label>
-                            <input type="text" class="form-control" id="endYear">
-                        </div>
-                        <button id="searchBtn">Search</button>
-                        <button id="clearBtn">Clear Results</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title p-3 mb-2 bg-dark text-white">Top Articles</h5>
-                    <button type="button" class="btn btn-secondary btn-lg btn-block"></button>
-                    <button type="button" class="btn btn-secondary btn-lg btn-block"></button>
-                    <button type="button" class="btn btn-secondary btn-lg btn-block"></button>
-                    <button type="button" class="btn btn-secondary btn-lg btn-block"></button>
-                    <button type="button" class="btn btn-secondary btn-lg btn-block"></button>
-                    <button type="button" class="btn btn-secondary btn-lg btn-block"></button>
-                    <button type="button" class="btn btn-secondary btn-lg btn-block"></button>
-                    <button type="button" class="btn btn-secondary btn-lg btn-block"></button>
-                    <button type="button" class="btn btn-secondary btn-lg btn-block"></button>
-                    <button type="button" class="btn btn-secondary btn-lg btn-block"></button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <body>
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="jumbotron jumbotron-fluid text-center">
+                    <div class="container-fluid">
+                        <h1 class="display-4 font-weight-bold"><i class="fa fa-newspaper-o" aria-hidden="true"></i> New
+                            York Times Search</h1>
+                        <p class="lead"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+<br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="rounded card-title p-3 mb-2 bg-dark text-white"><i class="fa fa-bars" aria-hidden="true"></i>
+                            Search Parameters</h5>
+                        <br>
+                        <form>
+                            <div class="form-group">
+                                <label class="font-weight-bold">Search Term:</label>
+                                <input type="text" class="form-control" id="searchTerm">
+                            </div>
+                            <div class="form-group">
+                                <label class="font-weight-bold">Number of Records to
+                                    Retrieve:</label>
+                                <input type="text" class="form-control" id="noRecords">
+                            </div>
+                            <div class="form-group">
+                                <label class="font-weight-bold">Start Year (Optional):</label>
+                                <input type="text" class="form-control" id="startYear">
+                            </div>
+                            <div class="form-group">
+                                <label class="font-weight-bold">End Year (Optional):</label>
+                                <input type="text" class="form-control" id="endYear">
+                            </div>
+                            <button type="button" class="btn btn-secondary" id="searchBtn"><i class="fa fa-search" aria-hidden="true"></i>
+                                Search</button>
+                            <button type="button" class="btn btn-secondary" id="clearBtn"><i class="fa fa-trash" aria-hidden="true"></i>
+                                Clear Results</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+<br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="rounded card-title p-3 mb-2 bg-dark text-white"><i class="fa fa-hand-o-down"
+                                aria-hidden="true"></i> Top Articles</h5>
+                        <button type="button" class="btn btn-light btn-lg btn-block"></button>
+                        <button type="button" class="btn btn-light btn-lg btn-block"></button>
+                        <button type="button" class="btn btn-light btn-lg btn-block"></button>
+                        <button type="button" class="btn btn-light btn-lg btn-block"></button>
+                        <button type="button" class="btn btn-light btn-lg btn-block"></button>
+                        <button type="button" class="btn btn-light btn-lg btn-block"></button>
+                        <button type="button" class="btn btn-light btn-lg btn-block"></button>
+                        <button type="button" class="btn btn-light btn-lg btn-block"></button>
+                        <button type="button" class="btn btn-light btn-lg btn-block"></button>
+                        <button type="button" class="btn btn-light btn-lg btn-block"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://unpkg.com/moment"></script>
+    <script src="https://kit.fontawesome.com/b9d3c95dc7.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 
-    <script src="" async defer></script>
 </body>
 
 </html>
