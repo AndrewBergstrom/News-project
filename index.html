@@ -2,20 +2,96 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">;
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="jumbotron jumbotron-fluid text-center">
+                <div class="container-fluid">
+                    <h1 class="display-4">New York Times Search</h1>
+                    <p class="lead"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title p-3 mb-2 bg-dark text-white">Search Parameters</h5>
+                    <br>
+                    <form>
+                        <div class="form-group">
+                            <label class="font-weight-bold">Search Term:</label>
+                            <input type="text" class="form-control" id="searchTerm">
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold">Number of Records to
+                                Retrieve:</label>
+                            <input type="text" class="form-control" id="noRecords">
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold">Start Year (Optional):</label>
+                            <input type="text" class="form-control" id="startYear">
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold">End Year (Optional):</label>
+                            <input type="text" class="form-control" id="endYear">
+                        </div>
+                        <button id="searchBtn">Search</button>
+                        <button id="clearBtn">Clear Results</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title p-3 mb-2 bg-dark text-white">Top Articles</h5>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block"></button>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block"></button>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block"></button>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block"></button>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block"></button>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block"></button>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block"></button>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block"></button>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block"></button>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<body>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-        <script src="" async defer></script>
-    </body>
+
+    <script src="" async defer></script>
+</body>
+
 </html>
